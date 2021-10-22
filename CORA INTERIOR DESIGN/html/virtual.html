@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/82514db913.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main02.css">
+    <script src="../_js/jquery-3.4.1.js"></script>
+    <!-- left：0;right：0;margin:auto 可以使元素垂直居中。 -->
+</head>
+<body>
+    <div class="spinner-wrapper">
+        <!-- <img src="../img/資產 5.png" alt=""> -->
+        <div class="spinner"></div>
+      
+      </div>
+    <!-- 建立主要導覽列 -->
+    <!-- 放logo圖片 -->
+    <header class="main-header">
+        <div class="container">
+            <a  class="logo" href="#home">
+                <img  src="../img/pexels-photo-861449 (1).jpeg" alt="">
+            </a>   
+                <!-- 導覽列選單左邊2個 右邊1個 購物車樣式 家漢堡   -->
+        <nav class="main-nav">
+            <!-- <div class="left-nav">
+            </div> -->
+            <a href="#">new</a>
+            <a href="#">shop</a>
+            <a href="#">category</a>
+            <a href="#">q&a</a>
+           
+        </nav>
+        <form action="" class="header-search">
+            <input type="text" placeholder="Search" name="Search" id="search">
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+
+        <!-- 我想放一個漢堡 裡面要有contact us email連結 放一下github(可連結) ig fb樣式-->
+        <div class="header-right" >
+            <div>
+
+            </div>
+
+        </div>
+        <div class="header__nav__toggle">
+
+
+        </div>
+    </header>
+    <div class="content-one">
+        <div class="frame-LF">
+            <div class="frame-LS">
+                <div class="container-LIMG">
+                    <img class= "happy-IMG" src="../img/happy.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="frame-R">
+            <div class="container-RIMG">
+                <img class="depression-IMG" src="../img/depression.jpeg" alt="">
+            </div>
+        </div> 
+        <div class="container-CIMG">
+            <img class="center-IMG" src="../img/center.jpeg" alt="">
+        </div>  
+    </div>
+    <div class="content-two">
+        <div class="banner">
+            <div class="banner-txt">
+                <h1 class="banner-txt-main">
+                    &emsp;&emsp;My life didn't please me,<br>
+                    &emsp;so i created my life.
+                </h1>
+                <p class="banner-txt-com">
+                    -coco chanel
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let spinnerwrapper = document.queryselector('spinner-wrapper')
+        window.addEventListener('load',function(){
+            spinnerwrapper.style.display="none";
+            // spinnerwrapper.parente
+        })
+    </script>
+</body>
+</html>
